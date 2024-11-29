@@ -60,7 +60,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kylan83728/Animal-adv
 
 
 
-local rageTab = Window:CreateTab("rage dragon ball🐉", 4483362458) -- Title, Image
+local rageTab = Window:CreateTab("dragon blox🐉", 4483362458) -- Title, Image
 
 
 local Button = rageTab:CreateButton({
