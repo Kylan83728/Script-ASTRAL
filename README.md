@@ -60,12 +60,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kylan83728/Animal-adv
 
 
 
-local Tab = Window:CreateTab("forest", 4483362458) -- Title, Image
+local foTab = Window:CreateTab("forest", 4483362458) -- Title, Image
 
 
 
 local isHitting = false
-local Button = Tab:CreateButton({
+local Button = foTab:CreateButton({
    Name = "Farm",
    Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/Kylan83728/Forest/refs/heads/main/README.md"))()
    -- The function that takes place when the button is pressed
