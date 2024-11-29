@@ -66,7 +66,7 @@ local rageTab = Window:CreateTab("dragon blox🐉", 4483362458) -- Title, Image
 local Button = rageTab:CreateButton({
    Name = "execute script",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kylan83728/Rage-dragon-ball-/refs/heads/main/README.md"))()
+
    -- The function that takes place when the button is pressed
    end,
 })
