@@ -40,7 +40,7 @@ local animalTab = Window:CreateTab("animal simulator 🐻", 4483362458) -- Title
 local Button = animalTab:CreateButton({
    Name = "execute script",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kylan83728/Orion-hybe-hd/refs/heads/main/README.md"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kylan83728/Animal-simulator/refs/heads/main/README.md"))()
    -- The function that takes place when the button is pressed
    end,
 })
